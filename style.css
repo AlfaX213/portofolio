@@ -131,6 +131,9 @@ section{
 }
 
 .card{
+    display: block;
+    text-decoration: none;
+    color: inherit;
     background:#111827;
     padding:1.5rem;
     border-radius:16px;
