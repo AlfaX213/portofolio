@@ -131,14 +131,27 @@ section{
 }
 
 .card{
-    display: block;
-    text-decoration: none;
-    color: inherit;
     background:#111827;
     padding:1.5rem;
     border-radius:16px;
     border:1px solid #1e293b;
     transition:.3s;
+}
+
+.project-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #3b82f6;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: background 0.2s ease;
+}
+
+.project-btn:hover {
+  background: #2563eb;
 }
 
 .card:hover{
